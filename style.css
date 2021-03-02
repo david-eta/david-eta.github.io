@@ -1,0 +1,20 @@
+body {
+    background: darkslateblue;
+}
+
+.assignment {
+    display: flex;
+    padding: 15px; 
+    margin: 10px;
+    background: lavender;
+}
+
+.assignment img {
+    width: 500px;
+    padding: 10px;
+}
+
+h1 {   
+    color: #d9eeff;
+    text-align: center;
+}
