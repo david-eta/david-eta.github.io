@@ -2,19 +2,40 @@ body {
     background: darkslateblue;
 }
 
-.assignment {
+.assignments {
     display: flex;
-    padding: 15px; 
+    flex-wrap: wrap;
+}
+
+.assignment {
+    width:25%;
+    padding: 10px; 
     margin: 10px;
     background: lavender;
 }
 
 .assignment img {
-    width: 500px;
+    width: 80%;
+    margin: 10px;
+    border: 4px;
     padding: 10px;
+    display: block;
+    margin: auto;
+}
+
+.assignment img:hover {
+    border: 4px lightblue;
 }
 
 h1 {   
     color: #d9eeff;
     text-align: center;
+}
+
+h1:hover {
+    color: darkorchid;
+}
+
+a {
+    text-decoration:none;
 }
